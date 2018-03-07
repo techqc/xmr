@@ -6075,13 +6075,13 @@ button.close {
 }
 
 .bg-primary {
-  background-image: url("image/monerobackground.jpeg") !important;
+  background-color: #007bff !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-image: url("image/monerobackground.jpeg") !important;
+  background-color: #0062cc !important;
 }
 
 .bg-secondary {
