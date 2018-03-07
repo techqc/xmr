@@ -5606,6 +5606,10 @@ button.close {
   border-style: solid;
 }
 
+.bg-primary1 {
+    background-image: url("image/monerobackground.jpeg")
+}
+
 .bs-tooltip-top, .bs-tooltip-auto[x-placement^="top"] {
   padding: 0.4rem 0;
 }
